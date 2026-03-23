@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>변수와 자료형</title>
+</head>
+<body>
+    <!-- 변수 - 데이터를 저장하기 위한 “이름이 붙은 저장 공간” -->
+    <script>
+        //1. 숫자형 - number
+        let age = 25;
+        let temperature = 24.5;
+
+        console.log("나이:", age);
+        // console.log("나이: " + age);
+        console.log("온도:", temperature);
+        console.log(typeof(age));
+        console.log(typeof(temperature));
+        
+        //2. 문자형 - string
+        let player = "이정후";
+        let city = "샌프란시스코";
+
+        console.log(player);
+        console.log(typeof(player));
+        
+        //3. 논리형(불린형) - boolean(true/false)
+        let isRaining = false;
+
+        console.log(isRaining);
+        console.log(typeof(isRaining));
+        
+        //4. undefined - 미할당된
+        let score;
+        console.log("점수:", score);
+
+        //5. 배열형 - object(객체)
+        let fruits = ["사과", "바나나", "오렌지"]
+        console.log(fruits);
+        console.log(typeof(fruits));
+
+        //6. 객체 - object
+        let student = {
+            name: "우영우",
+            age: 10,
+            city: "서울"
+        }
+
+        console.log(student);
+        console.log(typeof(student));
+        console.log("도시:", student.city);
+    </script>
+</body>
+</html>
