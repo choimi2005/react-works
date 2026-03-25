@@ -6,6 +6,9 @@ import './App.css'
 import Header from './components/Header'
 import Main from './components/Main'
 import Footer from './components/Footer'
+import UserList from './components/UserList'
+import Like from './components/Like'
+import InputText from './components/inputText'
 
 function App() {
   const user = "김기용";
@@ -21,13 +24,22 @@ function App() {
   return (
     <>
       <h2>리엑트 연습문제</h2>
-      <h3>{user}님 환영합니다.</h3>
+
       {/* {isLoggedIn ? <p>환영합니다.</p> : <p>로그인 해주세요</p>} */}
       {message}
 
-      <Header />
+    <InputText></InputText>
+
+    {/* <Like>
+
+    </Like> */}
+
+      {/* <UserList></UserList> */}
+      
+
+      {/* <Header />
       <Main />
-      <Footer />
+      <Footer /> */}
     </>
   )
 }
