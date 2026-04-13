@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>if문</title>
+</head>
+<body>
+    <h2>짝수/홀수 판별</h2>
+    <div id="result" class="result"></div>
+    <button onclick="calculate()">판별하기</button>
+
+    <script>
+        const demo = document.getElementById("result");
+       
+        console.log(typeof(num));
+        
+        //let num = 11; 
+
+        function calculate(){
+            let num = parseInt(prompt("숫자를 입력해보세요"));
+            
+            if (num % 2 == 0) {
+                console.log("짝수입니다.");
+                demo.textContent = `${num}은 짝수입니다.`;
+                //demo.innerHTML = `${num}은 짝수입니다.`;
+                demo.innerHTML = `<b>${num}</b>은 짝수입니다.`;
+                demo.style.color = "blue";
+            }
+            else{
+                //console.log("홀수입니다."); 
+                // demo.textContent = `${num}은 홀수입니다.`;
+                //demo.innerHTML = `${num}은 홀수입니다.`;
+                demo.innerHTML = `<b>${num}</b>은 홀수입니다.`;
+                    demo.style.color = "red";
+            }
+
+        }
+
+    </script>
+</body>
+</html>

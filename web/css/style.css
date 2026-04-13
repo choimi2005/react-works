@@ -1,0 +1,15 @@
+h1{color: blue;}
+h2{color: green;}
+p{
+    font-family: "바탕체";
+    /*1.2em은 부모 요소의 글자크기의 1.2배를 의미*/
+    font-size: 1.2em; /* 기본 16px */
+}
+.p1{
+    background-color: yellow;
+    line-height: 2; /* 한 글자 간격 생성 */
+}
+.p2{
+    background-color: skyblue;
+    line-height: 1.5; /* 반 자 크기 간격 */
+}

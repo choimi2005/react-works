@@ -1,0 +1,33 @@
+.products ul{
+
+ list-style: none;
+}
+
+.products li{
+
+  margin-bottom : 10px;
+}
+
+.drink-list{
+  list-style: none;
+  padding: 0;
+  
+}
+
+.avatar{
+  border-radius: 3%;
+}
+
+.card{
+    border: 2px solid blue;
+    border-radius: 12px;
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+}
+
+
+ul{
+  
+
+}

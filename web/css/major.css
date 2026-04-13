@@ -1,0 +1,25 @@
+#wrap{
+    width: 400px;
+    margin: 0 auto;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* 요소 간의 간격 */
+}
+ul li{
+    list-style: none;
+    margin: 10px 0;
+}
+ul li label{
+    width: 100px;
+    float: left; /*라베을 왼쪽으로 정렬*/
+}
+ul li input{
+    width: 50%;
+    padding: 5px;
+}
+select{
+    width: 50%;
+    padding: 10px;
+}

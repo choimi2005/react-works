@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>var 변수와 호이스팅</title>
+</head>
+<body>
+    <script>
+        //var는 호이스팅되어 선언이 끌어올려짐
+        console.log(x);
+        var x = 5;
+        console.log(x);
+        
+        var x = 10; //재선언과 할당 가능
+        console.log(x);
+
+        // let과 const는 호이스팅 되지 않음
+        // console.log(y);
+        // let y = 10
+        
+        console.log(z);
+        const z = 20 //상수 선언
+        
+    </script>
+</body>
+</html>

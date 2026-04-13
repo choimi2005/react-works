@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>반환값이 있는 함수</title>
+</head>
+<body>
+    <h2>반환값이 있는 함수</h2>
+    <div id="result"></div>
+
+    <script>
+        let result = document.getElementById("result");
+        //이름없는(익명) 함수
+        let square = function(x){
+            return x * x;
+        }
+
+        let add = function(x, y){
+            return x + y;
+        }
+
+        //호출
+        let num = square(5);
+        result.innerHTML = num;
+
+        let sum = add(10, 20);
+        result.innerHTML = `결과값: ${sum}`;
+    </script>
+</body>
+</html>

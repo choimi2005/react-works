@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>반환값이 있는 함수</title>
+</head>
+<body>
+    <h2>반환값이 있는 함수</h2>
+    <div id="result"></div>
+    <div id="result2"></div>
+
+    <script>
+        let result = document.getElementById("result");
+        let result2 = document.getElementById("result2");
+        //화살표 함수
+        //매개변수가 1개일때 괄호 생략 가능
+        let square = (x) => {return x * x;}
+
+        let add = (x, y) => {
+            return x + y;
+        }
+
+        //호출
+        let num = square(5);
+        result.innerHTML = `결과값: ${num}`;;
+
+        let sum = add(10, 20);
+        result2.innerHTML = `결과값: ${sum}`;
+    </script>
+</body>
+</html>

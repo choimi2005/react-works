@@ -1,0 +1,34 @@
+.container{
+
+  margin-top: 20px;
+
+}
+
+.user, .user-child {
+
+
+  margin-top: 20px;
+  padding: 10px;
+  border: 5px solid grey;
+  display: inline-block;
+
+
+}
+
+.button{
+  margin: 20px;
+}
+
+
+.header {
+  margin-bottom: 50px;
+
+}
+
+
+.header a {
+  margin: 16px;
+  font-size: 20px;
+  color: #333;
+
+}
