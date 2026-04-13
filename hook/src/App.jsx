@@ -14,14 +14,18 @@ import Profile from './card/Profile.jsx'
 import MapTest from './compoents/MapTest.jsx'
 import SignUp from './form/SignUp.jsx'
 import SignIn from './form/SignIn.jsx'
+<<<<<<< HEAD
 import StyleButton from './compoents/StyleButton.jsx'
 import Block from './compoents/Block.jsx'
+=======
+>>>>>>> 191af6813533ba3f3d8ca63353d06ef46c735544
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
 
+<<<<<<< HEAD
 
    <Block></Block>
 
@@ -29,6 +33,9 @@ function App() {
 
     {/* <SignIn></SignIn> */}
     
+=======
+    <SignIn></SignIn>
+>>>>>>> 191af6813533ba3f3d8ca63353d06ef46c735544
     {/* <SignUp></SignUp> */}
     {/* <MapTest></MapTest> */}
 

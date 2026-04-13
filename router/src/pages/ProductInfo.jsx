@@ -1,12 +1,18 @@
 import { Link, useParams } from "react-router-dom"
+<<<<<<< HEAD
 import {products} from '../data/products'
 //객체 배열
 
+=======
+
+//객체 배열
+>>>>>>> 191af6813533ba3f3d8ca63353d06ef46c735544
 
 
 const ProductInfo = () =>{
     
     //URL 파라미터에서 id값을 추출
+<<<<<<< HEAD
     // 모듈을 쪼개서 분리해서 관리하는 느낌인데
     // 호출방법 문법을 모르니 뭐가 어떻게 돌아가는지 모르겠음
     
@@ -17,14 +23,21 @@ const ProductInfo = () =>{
     console.log("검색한 상품:", product)
 
 
+=======
+
+    const {id} = useParams()
+>>>>>>> 191af6813533ba3f3d8ca63353d06ef46c735544
     return(
 
         <section className="product-info">
             <h1>상품 정보</h1>
             <p>상품 ID: {id}</p>
+<<<<<<< HEAD
             <p>상품명: {product.name}</p>
             <p>상품 가격: {product.price}</p>
             <p>상품 설명: {product.description}</p>
+=======
+>>>>>>> 191af6813533ba3f3d8ca63353d06ef46c735544
         </section>           
 
     )
